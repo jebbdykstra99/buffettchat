@@ -4,17 +4,17 @@
   --bg:          #f4efe4;
   --surface:     #fbf7ef;
   --nav-bg:      #1a2744;
-  --nav-text:    #9bb0c0;
-  --nav-hover:   #d5e2ea;
-  --nav-active:  #f4f8fb;
+  --nav-text:    #c4b8a0;
+  --nav-hover:   #efe6d4;
+  --nav-active:  #fbf7ef;
   --text:        #1c1914;
-  --text-muted:  #4a5d6c;
-  --text-light:  #6d8292;
+  --text-muted:  #5c5548;
+  --text-light:  #8a8170;
   --accent:      #c4a35a;
   --accent-dark: #9a7d3a;
-  --teal:        #3d5a6c;
-  --silver:      #b8c5cf;
-  --border:      #c9d5de;
+  --teal:        #9a7d3a;
+  --silver:      #cfc6b4;
+  --border:      #e0d6c4;
   --nav-w:       240px;
   --right-w:     280px;
   --ui:          Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -200,7 +200,7 @@ body {
 .right-panel-kicker {
   font-size: 0.7rem; font-weight: 700;
   letter-spacing: 0.18em; text-transform: uppercase;
-  color: #e07a6e; margin-bottom: 0.4rem;
+  color: #c4a35a; margin-bottom: 0.4rem;
 }
 .right-panel-title {
   font-family: var(--display);
@@ -217,19 +217,19 @@ a.news-item:hover { background: rgba(255,255,255,0.07); }
 .news-item-tag {
   font-size: 0.68rem; font-weight: 700;
   letter-spacing: 0.16em; text-transform: uppercase;
-  color: #7ec8c4; margin-bottom: 0.35rem;
+  color: #c4a35a; margin-bottom: 0.35rem;
 }
 .news-item-headline {
   font-size: 0.92rem; font-weight: 600; line-height: 1.4;
-  color: #f0f4f7; margin-bottom: 0.35rem;
+  color: #f7f1e4; margin-bottom: 0.35rem;
 }
-.news-item-snippet { font-size: 0.8rem; line-height: 1.5; color: #b8c5cf; margin-bottom: 0.3rem; }
-.news-item-meta { font-size: 0.75rem; color: #8aa0b0; }
+.news-item-snippet { font-size: 0.8rem; line-height: 1.5; color: #cfc6b4; margin-bottom: 0.3rem; }
+.news-item-meta { font-size: 0.75rem; color: #b8a888; }
 .right-panel-footer {
   padding: 0.9rem 1.4rem;
   border-top: 1px solid rgba(155,176,192,0.18); flex-shrink: 0;
 }
-.right-panel-footer p { font-size: 0.75rem; color: #8aa0b0; line-height: 1.55; }
+.right-panel-footer p { font-size: 0.75rem; color: #b8a888; line-height: 1.55; }
 
 body.right-collapsed .right-panel { transform: translateX(100%); }
 body.right-collapsed .main { margin-right: 0; }
@@ -260,7 +260,7 @@ body.right-collapsed .right-panel-tab svg { transform: scaleX(1); }
   background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
   padding: 1.05rem 1.15rem;
 }
-.news-page-list a.news-item:hover { background: #fff; }
+.news-page-list a.news-item:hover { background: #fffdf8; }
 .news-page-list .news-item-tag { color: var(--teal); }
 .news-page-list .news-item-headline { color: var(--text); }
 .news-page-list .news-item-snippet { color: var(--text-muted); }
@@ -283,7 +283,7 @@ body.right-collapsed .right-panel-tab svg { transform: scaleX(1); }
   border-bottom: 2px solid transparent;
   cursor: pointer;
 }
-.thoughts-tab:hover { color: var(--text); background: rgba(11,28,44,0.03); }
+.thoughts-tab:hover { color: var(--text); background: rgba(26,39,68,0.03); }
 .thoughts-tab.active { color: var(--text); border-bottom-color: var(--accent); }
 
 .thoughts-compose-wrap {
@@ -457,7 +457,7 @@ body.nav-collapsed .explore-overlay { left: 0; }
   display: flex; gap: 0.7rem; padding: 0.8rem 1rem; cursor: pointer;
   border-bottom: 1px solid var(--border);
 }
-.chat-thread-item:hover, .chat-thread-item.active { background: rgba(27,107,115,0.08); }
+.chat-thread-item:hover, .chat-thread-item.active { background: rgba(196,163,90,0.14); }
 .chat-thread-item .post-avatar { width: 36px; height: 36px; font-size: 0.7rem; }
 .thread-name { font-weight: 600; font-size: 0.88rem; }
 .thread-preview { font-size: 0.78rem; color: var(--text-light); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -472,7 +472,7 @@ body.nav-collapsed .explore-overlay { left: 0; }
   max-width: 80%; padding: 0.55rem 0.8rem; border-radius: 14px;
   font-size: 0.88rem; line-height: 1.4;
 }
-.chat-bubble.them { background: #dfe8ee; align-self: flex-start; }
+.chat-bubble.them { background: #efe6d4; align-self: flex-start; }
 .chat-bubble.me { background: var(--nav-bg); color: #fff; align-self: flex-end; }
 .chat-compose {
   display: flex; gap: 0.5rem; padding: 0.75rem 1rem;
@@ -494,7 +494,7 @@ body.nav-collapsed .explore-overlay { left: 0; }
   display: flex; gap: 0.75rem; padding: 1rem 1.3rem;
   border-bottom: 1px solid var(--border);
 }
-.notif-item.unread { background: rgba(192,54,44,0.06); }
+.notif-item.unread { background: rgba(196,163,90,0.06); }
 .notif-item p { font-size: 0.9rem; }
 .notif-item time { font-size: 0.75rem; color: var(--text-light); }
 
@@ -513,7 +513,7 @@ body.nav-collapsed .explore-overlay { left: 0; }
 
 /* ── Auth modal ───────────────────────────────────── */
 .conv-modal-overlay {
-  position: fixed; inset: 0; background: rgba(11,28,44,0.62);
+  position: fixed; inset: 0; background: rgba(26,39,68,0.62);
   display: flex; align-items: center; justify-content: center;
   z-index: 9500; opacity: 0; pointer-events: none; transition: opacity 0.2s;
 }
@@ -521,7 +521,7 @@ body.nav-collapsed .explore-overlay { left: 0; }
 .conv-modal {
   background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
   padding: 2rem 2.1rem; width: 100%; max-width: 420px;
-  box-shadow: 0 20px 60px rgba(11,28,44,0.3); position: relative;
+  box-shadow: 0 20px 60px rgba(26,39,68,0.3); position: relative;
 }
 .conv-modal h2 { font-family: var(--display); font-size: 1.9rem; font-weight: 700; letter-spacing: 0.03em; margin-bottom: 0.35rem; }
 .conv-modal-note { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 1rem; }
@@ -569,11 +569,11 @@ body.nav-collapsed .explore-overlay { left: 0; }
 .conv-modal-divider::before { left: 0; }
 .conv-modal-divider::after { right: 0; }
 .conv-google-btn {
-  width: 100%; padding: 0.65rem; background: #fff;
+  width: 100%; padding: 0.65rem; background: #fffdf8;
   border: 1px solid var(--border); cursor: pointer; border-radius: 50px;
   font-size: 0.88rem; font-weight: 600; color: var(--text);
 }
-.conv-google-btn:hover { background: #f5f5f5; }
+.conv-google-btn:hover { background: #f4efe4; }
 .conv-modal-err { font-size: 0.82rem; color: var(--accent); margin-bottom: 0.55rem; display: none; }
 .conv-modal-err.show { display: block; }
 
@@ -608,7 +608,7 @@ body.nav-collapsed .hamburger:hover { background: rgba(0,0,0,0.07); }
 
 .nav-overlay {
   display: none; position: fixed; inset: 0;
-  background: rgba(11,28,44,0.52); z-index: 350; cursor: pointer;
+  background: rgba(26,39,68,0.52); z-index: 350; cursor: pointer;
 }
 
 @media (max-width: 1100px) {
