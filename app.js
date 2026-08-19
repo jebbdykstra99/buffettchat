@@ -9,68 +9,72 @@
   const hamburger = document.getElementById('hamburger');
   const sidebar = document.getElementById('sidebar');
 
-  const COLORS = ['#0b1c2c', '#1b6b73', '#c0362c', '#2a4a62', '#8a3b32', '#345c6e'];
+  const COLORS = ['#1a2744', '#9a7d3a', '#c4a35a', '#3d4f6f', '#6b5428', '#2c3a58'];
 
   const TRENDS = [
-    { tag: 'Moat', headline: 'A wide moat is a boring business that keeps winning', snippet: 'If a bright 10-year-old can copy it by Friday, it is not a moat. Dummy note, not a pick.', meta: 'From the letter' },
-    { tag: 'Competence', headline: 'Stay inside the circle. The rest is noise.', snippet: 'Opportunity cost is the idea you skipped because a ticker was exciting. Dummy, not advice.', meta: 'Mental models' },
-    { tag: 'Float', headline: 'Other people’s money, patiently held', snippet: 'Insurance float as a lesson in cheap capital. Not a Berkshire filing. Dummy letter tone.', meta: 'Owners' },
-    { tag: 'Fat pitch', headline: 'Wait. Then swing hard.', snippet: 'No called strikes in investing. Sitting is a position. Dummy, not a timer.', meta: 'Temperament' },
-    { tag: 'Inversion', headline: 'Charlie: invert, always invert', snippet: 'Avoid stupidity first. Leverage, hot tips, and envy. Honor the model, not an obituary.', meta: 'Munger' },
-    { tag: 'Rule 1', headline: 'Don’t lose money. Then don’t forget rule 1.', snippet: 'Survival first, compounding second. Dummy feed. Not a broker. Not a quote feed.', meta: 'The Oracle still talks' }
+    { tag: 'Letter', headline: 'Circle of competence', snippet: 'Stay inside the businesses you can actually understand. Dummy note, not a quote feed.', meta: 'In this year’s letter' },
+    { tag: 'Moat', headline: 'Wide moat, quiet castle', snippet: 'Durable advantage beats a clever ticker. Owners think in decades.', meta: 'Mental model' },
+    { tag: 'Float', headline: 'Other people’s money, patiently', snippet: 'Float is a privilege if you never have to give it back in a hurry.', meta: 'In this year’s letter' },
+    { tag: 'Pitch', headline: 'Wait for the fat pitch', snippet: 'No called strikes. Sit still until something obvious floats over the plate.', meta: 'Temperament' },
+    { tag: 'Invert', headline: 'Tell me where I die so I never go there', snippet: 'Charlie’s move: invert the problem. Avoid stupidity first.', meta: 'Mental model' },
+    { tag: 'Rule 1', headline: 'Don’t lose money', snippet: 'Rule two is don’t forget rule one. Survival is the whole strategy.', meta: 'In this year’s letter' },
+    { tag: 'Compound', headline: 'Time in, not timing', snippet: 'The eighth wonder only works if you stop interrupting it.', meta: 'Mental model' },
+    { tag: 'Safety', headline: 'Margin of safety', snippet: 'Price is what you pay. Value is what you get. The gap is the work.', meta: 'In this year’s letter' }
   ];
 
   const PLACES = [
-    { tag: 'Idea', title: 'Circle of competence', snippet: 'Know what you know. Pass on the rest without FOMO.' },
-    { tag: 'Idea', title: 'Owners, not traders', snippet: 'Think in decades. Price is what you pay. Value is what you get.' },
-    { tag: 'Idea', title: 'Read the 10-K', snippet: 'The letter is a habit. The footnotes are the conversation.' },
-    { tag: 'Idea', title: 'Cash as optionality', snippet: 'Dry powder is a position. Dummy note, not a cash target.' },
-    { tag: 'Idea', title: 'Avoid leverage', snippet: 'A good business can still ruin you if you borrowed the farm.' },
-    { tag: 'Idea', title: 'Temperament over IQ', snippet: 'The game is patience. Intelligence without sitting still is a trap.' }
+    { tag: 'Idea', title: 'Circle of competence', snippet: 'Know the edge of what you know. Outside it, you are guessing with other people’s money.' },
+    { tag: 'Idea', title: 'Owners, not traders', snippet: 'Buy pieces of businesses. Afternoon noise is not a process.' },
+    { tag: 'Idea', title: 'Read the 10-Ks', snippet: 'If you will not read the filing, you do not own it. Dummy talk — no live filings.' },
+    { tag: 'Idea', title: 'Cash optionality', snippet: 'Cash is a call on everyone else’s panic. Keep dry powder without apologizing.' },
+    { tag: 'Idea', title: 'Avoid leverage', snippet: 'Leverage is how smart people go broke. The math works until it does not.' },
+    { tag: 'Idea', title: 'Temperament', snippet: 'IQ is not the bottleneck. Sitting still when sitting still is the work.' }
   ];
 
   const TOPICS = [
-    { tag: 'Model', title: 'Inversion', snippet: 'Avoid the ways to fail. Charlie’s favorite move.' },
-    { tag: 'Model', title: 'Opportunity cost', snippet: 'Every yes is a no to something quieter and better.' },
-    { tag: 'Model', title: 'Latticework', snippet: 'Psychology, accounting, and incentives in the same head.' },
-    { tag: 'Model', title: 'Mr. Market', snippet: 'A manic partner. Use him. Do not join him.' },
-    { tag: 'Model', title: 'Margin of safety', snippet: 'Pay less than it is worth. Leave room to be wrong.' },
-    { tag: 'Model', title: 'Compounding', snippet: 'Time is the product. Interrupt it and you start over.' }
+    { tag: 'Model', title: 'Inversion', snippet: 'Avoid the ways to fail. Charlie’s habit: invert, always invert.' },
+    { tag: 'Model', title: 'Opportunity cost', snippet: 'Every yes is a no to something else. The silent partner in every capital decision.' },
+    { tag: 'Model', title: 'Latticework', snippet: 'One discipline is a hammer. You need models from several rooms of the house.' },
+    { tag: 'Model', title: 'Mr. Market', snippet: 'A manic-depressive partner. You are not obligated to trade with him.' },
+    { tag: 'Model', title: 'Margin of safety', snippet: 'Leave room to be wrong. The gap between price and value is the whole job.' },
+    { tag: 'Model', title: 'Compounding', snippet: 'Do not interrupt it. Time is the multiplier if temperament holds.' }
   ];
 
   const SEED = [
-    { id: 'p1', name: 'Oracle Omaha', handle: 'oracleomaha', text: 'The Oracle still talks. Not in tips. In 10-Ks, patience, and the fat pitch you wait a decade for.', hours: 2, likes: 214, replies: 31, followed: true },
-    { id: 'p2', name: 'Charlie Inverted', handle: 'charlieinverted', text: 'Invert, always invert. List the ways a portfolio dies: leverage, envy, activity. Then do none of that.', hours: 3, likes: 188, replies: 22, followed: true },
-    { id: 'p3', name: 'Wide Moat', handle: 'widemoat', text: 'If the competitor can copy you with a weekend and a spreadsheet, you do not have a moat. You have a hobby.', hours: 4, likes: 156, replies: 18, followed: true },
-    { id: 'p4', name: 'Float and Wait', handle: 'floatandwait', text: 'Cheap capital is a teacher. Insurance float as a metaphor: hold other people’s money with honor, then compound.', hours: 6, likes: 97, replies: 11, followed: false },
-    { id: 'p5', name: '10-K Club', handle: '10kclub', text: 'Saturday morning, coffee, a 10-K. The footnotes are where the business tells on itself. Dummy ritual, not a filing.', hours: 8, likes: 142, replies: 19, followed: true },
-    { id: 'p6', name: 'Fat Pitch', handle: 'fatpitch', text: 'No called strikes. Sitting is a position. When it is finally in your circle, swing like you mean the next 20 years.', hours: 9, likes: 201, replies: 27, followed: true },
-    { id: 'p7', name: 'See and Wait', handle: 'seeandwait', text: 'Quality at a fair price beats junk on sale. The hard part is doing nothing while everyone else is “busy.”', hours: 11, likes: 76, replies: 9, followed: false },
-    { id: 'p8', name: 'Mr Market', handle: 'mrmarketdaily', text: 'He showed up manic this morning. I used him. I did not join him. Dummy mood, not a live quote.', hours: 12, likes: 119, replies: 14, followed: true },
-    { id: 'p9', name: 'Margin Kid', handle: 'marginofsafety', text: 'Pay less than it is worth so being a little wrong does not ruin you. Rule 1 still sits at the top of the letter.', hours: 14, likes: 88, replies: 7, followed: false },
-    { id: 'p10', name: 'Lattice', handle: 'latticework', text: 'Psychology of misjudgment, incentives, and accounting in the same notebook. Charlie’s lattice, still useful.', hours: 16, likes: 134, replies: 16, followed: true },
-    { id: 'p11', name: 'Owners Desk', handle: 'ownersnottraders', text: 'If you cannot hold it for ten years, do not hold it for ten minutes. Dummy temperament talk. Not a broker.', hours: 18, likes: 167, replies: 21, followed: true },
-    { id: 'p12', name: 'Cash Option', handle: 'drypowder', text: 'Cash is optionality, not a sin. The fat pitch is easier when you can actually pay for it.', hours: 20, likes: 91, replies: 10, followed: false },
-    { id: 'p13', name: 'No Leverage', handle: 'noleverage', text: 'A wonderful business plus borrowed money is how wonderful people go broke. Avoid the easy stupid.', hours: 22, likes: 155, replies: 13, followed: true },
-    { id: 'p14', name: 'Omaha Letter', handle: 'letterreader', text: 'Read the annual letter like a partner wrote it to you, because that was the point. Dummy, not a filing.', hours: 26, likes: 72, replies: 8, followed: false },
-    { id: 'p15', name: 'Competence', handle: 'stayinthecirle', text: 'Circle of competence is a fence, not a vibe. Pass on what you cannot value. That is the whole strategy.', hours: 30, likes: 109, replies: 12, followed: true },
-    { id: 'p16', name: 'Compound Quiet', handle: 'compoundquietly', text: 'Time is the product. Interrupt it for a hot tip and you start the clock over. The Oracle still talks.', hours: 34, likes: 198, replies: 25, followed: true }
+    { id: 'p1', name: 'Oracle Omaha', handle: 'oracleomaha', text: 'Rule number one: don’t lose money. Rule number two: don’t forget rule number one. Everything else is commentary.', hours: 1, likes: 412, replies: 38, followed: true },
+    { id: 'p2', name: 'Charlie Inverted', handle: 'charlieinverted', text: 'Invert, always invert. Tell me where I’m going to die so I never go there. Avoiding stupidity is a full-time job.', hours: 2, likes: 388, replies: 41, followed: true },
+    { id: 'p3', name: 'Wide Moat', handle: 'widemoat', text: 'A great business is a castle. The moat is what keeps the barbarians out. Management is just the duke — the moat is the asset.', hours: 3, likes: 256, replies: 22, followed: true },
+    { id: 'p4', name: 'Float and Wait', handle: 'floatandwait', text: 'Insurance float is other people’s money you get to invest while you wait. The trick is never having to give it back in a hurry.', hours: 4, likes: 191, replies: 14, followed: true },
+    { id: 'p5', name: '10-K Club', handle: '10kclub', text: 'If you will not read the 10-K, you do not own the business. You are renting a ticker and hoping. Dummy feed — not a filing.', hours: 5, likes: 274, replies: 33, followed: false },
+    { id: 'p6', name: 'Fat Pitch', handle: 'fatpitch', text: 'The market is a pitching machine with no called strikes. Wait for the fat one over the plate. Sitting is a position.', hours: 6, likes: 321, replies: 19, followed: true },
+    { id: 'p7', name: 'Circle First', handle: 'circlefirst', text: 'Circle of competence is not a slogan. It is a fence. Outside it you are guessing, and guessing is how capital disappears.', hours: 8, likes: 167, replies: 11, followed: true },
+    { id: 'p8', name: 'Mr Market', handle: 'mrktmarket', text: 'Mr. Market is a manic-depressive partner who quotes you a price every morning. You are not obligated to do business with him.', hours: 9, likes: 298, replies: 27, followed: false },
+    { id: 'p9', name: 'Compound Quietly', handle: 'compoundquietly', text: 'Compounding is the eighth wonder if you stop interrupting it. Time in the seat beats timing the noise.', hours: 11, likes: 344, replies: 18, followed: true },
+    { id: 'p10', name: 'Owners Desk', handle: 'ownersnottraders', text: 'Buy businesses, not stocks. Owners think in decades. Traders think in afternoons. Pick a time horizon and keep it.', hours: 13, likes: 219, replies: 16, followed: true },
+    { id: 'p11', name: 'Cash Optionality', handle: 'cashoptionality', text: 'Cash is a call option on everyone else’s panic. Dry powder looks foolish until the day it is the only thing that matters.', hours: 15, likes: 183, replies: 12, followed: false },
+    { id: 'p12', name: 'No Leverage', handle: 'noleverage', text: 'Leverage is how smart people go broke. The math works until one bad year, and you only need one.', hours: 17, likes: 276, replies: 29, followed: true },
+    { id: 'p13', name: 'Lattice Work', handle: 'latticework', text: 'You need a latticework of mental models. One discipline is a hammer looking for nails. Charlie collected rooms, not slogans.', hours: 19, likes: 231, replies: 21, followed: true },
+    { id: 'p14', name: 'Margin Club', handle: 'marginsafety', text: 'Price is what you pay. Value is what you get. The gap is your margin of safety. Do not skip the gap.', hours: 21, likes: 359, replies: 24, followed: false },
+    { id: 'p15', name: 'Sit Still', handle: 'temperament', text: 'IQ is not the bottleneck. Temperament is. The work is sitting still when sitting still is the correct trade.', hours: 23, likes: 205, replies: 9, followed: true },
+    { id: 'p16', name: 'Opportunity Cost', handle: 'opportunitycost', text: 'Every yes is a no to something else. Opportunity cost is the silent partner in every capital decision. Say no more often.', hours: 26, likes: 148, replies: 7, followed: false },
+    { id: 'p17', name: 'Omaha Office', handle: 'omahaoffice', text: 'You do not need a ticker on the wall. You need a book, a 10-K, and a quiet room. Dummy wisdom — not advice.', hours: 30, likes: 172, replies: 13, followed: true },
+    { id: 'p18', name: 'Partner First', handle: 'partnerfirst', text: 'The best investment is a partner who will tell you when you are wrong. Charlie’s ideas still do that work. Honor the latticework.', hours: 34, likes: 401, replies: 44, followed: true }
   ];
 
   const NOTIFS = [
-    { id: 'n1', text: '@missionfoil liked your take on foil.', time: '1h', unread: true },
-    { id: 'n2', text: '@karlthefog mentioned you in a fog check.', time: '3h', unread: true },
-    { id: 'n3', text: '@oraclewind started following you. Dummy follow.', time: 'Yesterday', unread: true }
+    { id: 'n1', text: '@widemoat liked your take on moats.', time: '1h', unread: true },
+    { id: 'n2', text: '@charlieinverted mentioned you in an inversion thread.', time: '3h', unread: true },
+    { id: 'n3', text: '@oracleomaha started following you. Dummy follow.', time: 'Yesterday', unread: true }
   ];
 
   const THREADS = [
-    { id: 't1', name: 'Mission Foil', handle: 'missionfoil', preview: 'Okay but have you tried the super with extra hot?', messages: [
-      { me: false, text: 'Okay but have you tried the super with extra hot?' },
-      { me: true, text: 'Every Tuesday. This is not a debate.' }
+    { id: 't1', name: 'Charlie Inverted', handle: 'charlieinverted', preview: 'Invert the problem. Where do we die?', messages: [
+      { me: false, text: 'Invert the problem. Where do we die?' },
+      { me: true, text: 'Leverage, outside the circle, and interrupting compounding. Dummy chat, not advice.' }
     ]},
-    { id: 't2', name: 'BART Watcher', handle: 'bartwatcher', preview: 'Walking from Montgomery. You?', messages: [
-      { me: false, text: 'Walking from Montgomery. You?' },
-      { me: true, text: 'Stuck at 16th. See you on Valencia.' }
+    { id: 't2', name: 'Wide Moat', handle: 'widemoat', preview: 'Moats aren’t slogans. What’s durable?', messages: [
+      { me: false, text: 'Moats aren’t slogans. What’s durable?' },
+      { me: true, text: 'Switching costs, brand, and a cost advantage you can explain on one page.' }
     ]}
   ];
 
@@ -350,11 +354,11 @@
     document.getElementById('profile-display-name').textContent = currentUser.name;
     document.getElementById('profile-handle').textContent = '@' + currentUser.handle;
     document.getElementById('profile-avatar').textContent = initials(currentUser.name);
-    document.getElementById('profile-bio').textContent = currentUser.bio || 'Talking about the city.';
+    document.getElementById('profile-bio').textContent = currentUser.bio || 'Owners, not traders.';
     const mine = allPosts().filter(function (p) { return p.handle === currentUser.handle; });
     const pane = document.getElementById('profile-pane-posts');
     if (!mine.length) {
-      pane.innerHTML = '<div class="empty-note" id="profile-posts-empty">No posts yet. Hit Post when something about the city is on your mind.</div>';
+      pane.innerHTML = '<div class="empty-note" id="profile-posts-empty">No posts yet. Hit Post when you have a thought worth keeping for a decade.</div>';
     } else {
       pane.innerHTML = mine.map(renderPost).join('');
     }
@@ -374,7 +378,7 @@
       av.style.background = colorFor(currentUser.handle);
     } else {
       el.innerHTML = '<button class="sidebar-auth-btn primary" id="auth-signin" type="button">Sign in</button>';
-      av.textContent = '415';
+      av.textContent = 'B';
       av.style.background = '';
     }
   }
@@ -396,8 +400,8 @@
   function stubSignIn(name, handle) {
     currentUser = {
       name: name || 'Guest',
-      handle: (handle || 'guest415').replace(/^@/, '').toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 15) || 'guest415',
-      bio: 'Omaha, talking.'
+      handle: (handle || 'guestomaha').replace(/^@/, '').toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 15) || 'guestomaha',
+      bio: 'Just visiting Omaha. Owners, not traders.'
     };
     saveJSON(LS_USER, currentUser);
     closeAuth();
@@ -479,8 +483,8 @@
       document.querySelectorAll('[data-explore-tab]').forEach(function (t) {
         t.classList.toggle('active', t === etab);
       });
-      document.getElementById('explore-pane-ideas').classList.toggle('active', etab.dataset.exploreTab === 'places');
-      document.getElementById('explore-pane-models').classList.toggle('active', etab.dataset.exploreTab === 'topics');
+      document.getElementById('explore-pane-ideas').classList.toggle('active', etab.dataset.exploreTab === 'ideas');
+      document.getElementById('explore-pane-models').classList.toggle('active', etab.dataset.exploreTab === 'models');
       return;
     }
 
@@ -570,7 +574,7 @@
     const err = document.getElementById(errId);
     err.textContent = 'Dress rehearsal — no live auth. Continuing as guest.';
     err.classList.add('show');
-    setTimeout(function () { stubSignIn('Guest', 'guest415'); }, 500);
+    setTimeout(function () { stubSignIn('Guest', 'guestomaha'); }, 500);
   }
   document.getElementById('cv-login-btn').addEventListener('click', function () { stubSubmit('cv-login-err'); });
   document.getElementById('cv-reg-btn').addEventListener('click', function () {
@@ -580,7 +584,7 @@
     err.classList.add('show');
     setTimeout(function () { stubSignIn(name, name.replace(/\s+/g, '').slice(0, 12)); }, 500);
   });
-  document.getElementById('cv-google-login').addEventListener('click', function () { stubSignIn('Guest', 'guest415'); });
+  document.getElementById('cv-google-login').addEventListener('click', function () { stubSignIn('Guest', 'guestomaha'); });
 
   const search = document.getElementById('explore-search-input');
   search.addEventListener('input', function () {
@@ -592,7 +596,7 @@
       });
     }
     function cards(list) {
-      if (!list.length) return '<p class="empty-note">Nothing in Omaha matched that.</p>';
+      if (!list.length) return '<p class="empty-note">Nothing in the letter matched that.</p>';
       return list.map(function (c) {
         return '<article class="explore-card"><div class="explore-card-tag">' + escapeHtml(c.tag) +
           '</div><div class="explore-card-title">' + escapeHtml(c.title) +
