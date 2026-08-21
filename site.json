@@ -1,0 +1,382 @@
+{
+  "siteId": "buffettchat",
+  "name": "buffettchat",
+  "tagline": "The Oracle still talks.",
+  "composePlaceholder": "What's on your mind, owner?",
+  "emptyState": "This room is empty. Sign in with email to post the first take like an owner. Guest can browse only.",
+  "theme": {
+    "bg": "#f4efe4",
+    "surface": "#fbf7ef",
+    "nav-bg": "#1a2744",
+    "nav-text": "#c4b8a0",
+    "nav-hover": "#efe6d4",
+    "nav-active": "#fbf7ef",
+    "text": "#1c1914",
+    "text-muted": "#5c5548",
+    "text-light": "#8a8170",
+    "accent": "#c4a35a",
+    "accent-dark": "#9a7d3a",
+    "teal": "#9a7d3a",
+    "silver": "#cfc6b4",
+    "border": "#e0d6c4",
+    "avatarColors": [
+      "#1a2744",
+      "#9a7d3a",
+      "#c4a35a",
+      "#3d4f6f",
+      "#6b5428",
+      "#2c3a58"
+    ]
+  },
+  "trends": [
+    {
+      "tag": "Letter",
+      "headline": "Circle of competence",
+      "snippet": "Stay inside the businesses you can actually understand. Dummy note, not a quote feed.",
+      "meta": "In this year’s letter"
+    },
+    {
+      "tag": "Moat",
+      "headline": "Wide moat, quiet castle",
+      "snippet": "Durable advantage beats a clever ticker. Owners think in decades.",
+      "meta": "Mental model"
+    },
+    {
+      "tag": "Float",
+      "headline": "Other people’s money, patiently",
+      "snippet": "Float is a privilege if you never have to give it back in a hurry.",
+      "meta": "In this year’s letter"
+    },
+    {
+      "tag": "Pitch",
+      "headline": "Wait for the fat pitch",
+      "snippet": "No called strikes. Sit still until something obvious floats over the plate.",
+      "meta": "Temperament"
+    },
+    {
+      "tag": "Invert",
+      "headline": "Tell me where I die so I never go there",
+      "snippet": "Charlie’s move: invert the problem. Avoid stupidity first.",
+      "meta": "Mental model"
+    },
+    {
+      "tag": "Rule 1",
+      "headline": "Don’t lose money",
+      "snippet": "Rule two is don’t forget rule one. Survival is the whole strategy.",
+      "meta": "In this year’s letter"
+    },
+    {
+      "tag": "Compound",
+      "headline": "Time in, not timing",
+      "snippet": "The eighth wonder only works if you stop interrupting it.",
+      "meta": "Mental model"
+    },
+    {
+      "tag": "Safety",
+      "headline": "Margin of safety",
+      "snippet": "Price is what you pay. Value is what you get. The gap is the work.",
+      "meta": "In this year’s letter"
+    }
+  ],
+  "places": [
+    {
+      "tag": "Idea",
+      "title": "Circle of competence",
+      "snippet": "Know the edge of what you know. Outside it, you are guessing with other people’s money."
+    },
+    {
+      "tag": "Idea",
+      "title": "Owners, not traders",
+      "snippet": "Buy pieces of businesses. Afternoon noise is not a process."
+    },
+    {
+      "tag": "Idea",
+      "title": "Read the 10-Ks",
+      "snippet": "If you will not read the filing, you do not own it. Dummy talk — no live filings."
+    },
+    {
+      "tag": "Idea",
+      "title": "Cash optionality",
+      "snippet": "Cash is a call on everyone else’s panic. Keep dry powder without apologizing."
+    },
+    {
+      "tag": "Idea",
+      "title": "Avoid leverage",
+      "snippet": "Leverage is how smart people go broke. The math works until it does not."
+    },
+    {
+      "tag": "Idea",
+      "title": "Temperament",
+      "snippet": "IQ is not the bottleneck. Sitting still when sitting still is the work."
+    }
+  ],
+  "topics": [
+    {
+      "tag": "Model",
+      "title": "Inversion",
+      "snippet": "Avoid the ways to fail. Charlie’s habit: invert, always invert."
+    },
+    {
+      "tag": "Model",
+      "title": "Opportunity cost",
+      "snippet": "Every yes is a no to something else. The silent partner in every capital decision."
+    },
+    {
+      "tag": "Model",
+      "title": "Latticework",
+      "snippet": "One discipline is a hammer. You need models from several rooms of the house."
+    },
+    {
+      "tag": "Model",
+      "title": "Mr. Market",
+      "snippet": "A manic-depressive partner. You are not obligated to trade with him."
+    },
+    {
+      "tag": "Model",
+      "title": "Margin of safety",
+      "snippet": "Leave room to be wrong. The gap between price and value is the whole job."
+    },
+    {
+      "tag": "Model",
+      "title": "Compounding",
+      "snippet": "Do not interrupt it. Time is the multiplier if temperament holds."
+    }
+  ],
+  "seedNote": "sample — not mixed into the live feed",
+  "seed": [
+    {
+      "id": "p1",
+      "name": "Oracle Omaha",
+      "handle": "oracleomaha",
+      "text": "Rule number one: don’t lose money. Rule number two: don’t forget rule number one. Everything else is commentary.",
+      "hours": 1,
+      "likes": 412,
+      "replies": 38,
+      "followed": true
+    },
+    {
+      "id": "p2",
+      "name": "Charlie Inverted",
+      "handle": "charlieinverted",
+      "text": "Invert, always invert. Tell me where I’m going to die so I never go there. Avoiding stupidity is a full-time job.",
+      "hours": 2,
+      "likes": 388,
+      "replies": 41,
+      "followed": true
+    },
+    {
+      "id": "p3",
+      "name": "Wide Moat",
+      "handle": "widemoat",
+      "text": "A great business is a castle. The moat is what keeps the barbarians out. Management is just the duke — the moat is the asset.",
+      "hours": 3,
+      "likes": 256,
+      "replies": 22,
+      "followed": true
+    },
+    {
+      "id": "p4",
+      "name": "Float and Wait",
+      "handle": "floatandwait",
+      "text": "Insurance float is other people’s money you get to invest while you wait. The trick is never having to give it back in a hurry.",
+      "hours": 4,
+      "likes": 191,
+      "replies": 14,
+      "followed": true
+    },
+    {
+      "id": "p5",
+      "name": "10-K Club",
+      "handle": "10kclub",
+      "text": "If you will not read the 10-K, you do not own the business. You are renting a ticker and hoping. Dummy feed — not a filing.",
+      "hours": 5,
+      "likes": 274,
+      "replies": 33,
+      "followed": false
+    },
+    {
+      "id": "p6",
+      "name": "Fat Pitch",
+      "handle": "fatpitch",
+      "text": "The market is a pitching machine with no called strikes. Wait for the fat one over the plate. Sitting is a position.",
+      "hours": 6,
+      "likes": 321,
+      "replies": 19,
+      "followed": true
+    },
+    {
+      "id": "p7",
+      "name": "Circle First",
+      "handle": "circlefirst",
+      "text": "Circle of competence is not a slogan. It is a fence. Outside it you are guessing, and guessing is how capital disappears.",
+      "hours": 8,
+      "likes": 167,
+      "replies": 11,
+      "followed": true
+    },
+    {
+      "id": "p8",
+      "name": "Mr Market",
+      "handle": "mrktmarket",
+      "text": "Mr. Market is a manic-depressive partner who quotes you a price every morning. You are not obligated to do business with him.",
+      "hours": 9,
+      "likes": 298,
+      "replies": 27,
+      "followed": false
+    },
+    {
+      "id": "p9",
+      "name": "Compound Quietly",
+      "handle": "compoundquietly",
+      "text": "Compounding is the eighth wonder if you stop interrupting it. Time in the seat beats timing the noise.",
+      "hours": 11,
+      "likes": 344,
+      "replies": 18,
+      "followed": true
+    },
+    {
+      "id": "p10",
+      "name": "Owners Desk",
+      "handle": "ownersnottraders",
+      "text": "Buy businesses, not stocks. Owners think in decades. Traders think in afternoons. Pick a time horizon and keep it.",
+      "hours": 13,
+      "likes": 219,
+      "replies": 16,
+      "followed": true
+    },
+    {
+      "id": "p11",
+      "name": "Cash Optionality",
+      "handle": "cashoptionality",
+      "text": "Cash is a call option on everyone else’s panic. Dry powder looks foolish until the day it is the only thing that matters.",
+      "hours": 15,
+      "likes": 183,
+      "replies": 12,
+      "followed": false
+    },
+    {
+      "id": "p12",
+      "name": "No Leverage",
+      "handle": "noleverage",
+      "text": "Leverage is how smart people go broke. The math works until one bad year, and you only need one.",
+      "hours": 17,
+      "likes": 276,
+      "replies": 29,
+      "followed": true
+    },
+    {
+      "id": "p13",
+      "name": "Lattice Work",
+      "handle": "latticework",
+      "text": "You need a latticework of mental models. One discipline is a hammer looking for nails. Charlie collected rooms, not slogans.",
+      "hours": 19,
+      "likes": 231,
+      "replies": 21,
+      "followed": true
+    },
+    {
+      "id": "p14",
+      "name": "Margin Club",
+      "handle": "marginsafety",
+      "text": "Price is what you pay. Value is what you get. The gap is your margin of safety. Do not skip the gap.",
+      "hours": 21,
+      "likes": 359,
+      "replies": 24,
+      "followed": false
+    },
+    {
+      "id": "p15",
+      "name": "Sit Still",
+      "handle": "temperament",
+      "text": "IQ is not the bottleneck. Temperament is. The work is sitting still when sitting still is the correct trade.",
+      "hours": 23,
+      "likes": 205,
+      "replies": 9,
+      "followed": true
+    },
+    {
+      "id": "p16",
+      "name": "Opportunity Cost",
+      "handle": "opportunitycost",
+      "text": "Every yes is a no to something else. Opportunity cost is the silent partner in every capital decision. Say no more often.",
+      "hours": 26,
+      "likes": 148,
+      "replies": 7,
+      "followed": false
+    },
+    {
+      "id": "p17",
+      "name": "Omaha Office",
+      "handle": "omahaoffice",
+      "text": "You do not need a ticker on the wall. You need a book, a 10-K, and a quiet room. Dummy wisdom — not advice.",
+      "hours": 30,
+      "likes": 172,
+      "replies": 13,
+      "followed": true
+    },
+    {
+      "id": "p18",
+      "name": "Partner First",
+      "handle": "partnerfirst",
+      "text": "The best investment is a partner who will tell you when you are wrong. Charlie’s ideas still do that work. Honor the latticework.",
+      "hours": 34,
+      "likes": 401,
+      "replies": 44,
+      "followed": true
+    }
+  ],
+  "notifs": [
+    {
+      "id": "n1",
+      "text": "@widemoat liked your take on moats.",
+      "time": "1h",
+      "unread": true
+    },
+    {
+      "id": "n2",
+      "text": "@charlieinverted mentioned you in an inversion thread.",
+      "time": "3h",
+      "unread": true
+    },
+    {
+      "id": "n3",
+      "text": "@oracleomaha started following you. Dummy follow.",
+      "time": "Yesterday",
+      "unread": true
+    }
+  ],
+  "threads": [
+    {
+      "id": "t1",
+      "name": "Charlie Inverted",
+      "handle": "charlieinverted",
+      "preview": "Invert the problem. Where do we die?",
+      "messages": [
+        {
+          "me": false,
+          "text": "Invert the problem. Where do we die?"
+        },
+        {
+          "me": true,
+          "text": "Leverage, outside the circle, and interrupting compounding. Dummy chat, not advice."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "name": "Wide Moat",
+      "handle": "widemoat",
+      "preview": "Moats aren’t slogans. What’s durable?",
+      "messages": [
+        {
+          "me": false,
+          "text": "Moats aren’t slogans. What’s durable?"
+        },
+        {
+          "me": true,
+          "text": "Switching costs, brand, and a cost advantage you can explain on one page."
+        }
+      ]
+    }
+  ]
+}
