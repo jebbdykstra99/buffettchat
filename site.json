@@ -379,5 +379,29 @@
         }
       ]
     }
-  ]
+  ],
+  "rail": {
+    "kind": "porch",
+    "title": "Room Brief",
+    "kicker": "In this year’s letter",
+    "meta": "This room",
+    "footer": "Would Warren. Not CNBC.",
+    "outbound": [
+      {
+        "tag": "Letters",
+        "headline": "Shareholder letters",
+        "snippet": "The archive, from Omaha. Not a news scrape.",
+        "url": "https://www.berkshirehathaway.com/letters/letters.html",
+        "meta": "Official · link-out"
+      }
+    ],
+    "porch": {
+      "prompt": "Would Warren?",
+      "options": [
+        "Buy",
+        "Hold",
+        "Sell"
+      ]
+    }
+  }
 }
