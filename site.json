@@ -401,7 +401,8 @@
         "Buy",
         "Hold",
         "Sell"
-      ]
+      ],
+      "dwellMs": 9000
     }
   }
 }
