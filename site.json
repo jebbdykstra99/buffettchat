@@ -4,7 +4,7 @@
   "name": "buffettchat",
   "tagline": "The Oracle still talks.",
   "composePlaceholder": "What's on your mind, owner?",
-  "emptyState": "This room is empty. Sign in with email to post the first take like an owner. Guest can browse only.",
+  "emptyState": "This room is empty. Sign in with email to post the first take like an owner. Guest can browse only. Not financial advice. Not affiliated with Berkshire Hathaway.",
   "theme": {
     "bg": "#f4efe4",
     "surface": "#fbf7ef",
@@ -32,115 +32,108 @@
   "trends": [
     {
       "tag": "Letter",
-      "headline": "Circle of competence",
-      "snippet": "Stay inside the businesses you can actually understand. Dummy note, not a quote feed.",
-      "meta": "In this year’s letter"
+      "headline": "The letter still talks.",
+      "snippet": "Abel’s Feb 28, 2026 letter is up. Operating earnings, cash, and culture — in Omaha’s words.",
+      "meta": "FACT · PDF",
+      "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf"
     },
     {
-      "tag": "Moat",
-      "headline": "Wide moat, quiet castle",
-      "snippet": "Durable advantage beats a clever ticker. Owners think in decades.",
-      "meta": "Mental model"
+      "tag": "Holdings",
+      "headline": "Holdings are a filing, not a tip sheet.",
+      "snippet": "Q2 2026 13F (filed Aug 14): 89 lines, ~$299B reported value.",
+      "meta": "FACT · EDGAR",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/0001193125-26-352200-index.htm"
     },
     {
-      "tag": "Float",
-      "headline": "Other people’s money, patiently",
-      "snippet": "Float is a privilege if you never have to give it back in a hurry.",
-      "meta": "In this year’s letter"
+      "tag": "Porch",
+      "headline": "Would Warren?",
+      "snippet": "Bring a paragraph from the letter or a line from the 13F before the speculation.",
+      "meta": "Culture"
     },
     {
-      "tag": "Pitch",
-      "headline": "Wait for the fat pitch",
-      "snippet": "No called strikes. Sit still until something obvious floats over the plate.",
-      "meta": "Temperament"
+      "tag": "Trust",
+      "headline": "Filings, not fanfic.",
+      "snippet": "Not financial advice. Not affiliated with Berkshire Hathaway.",
+      "meta": "Sticky"
     },
     {
-      "tag": "Invert",
-      "headline": "Tell me where I die so I never go there",
-      "snippet": "Charlie’s move: invert the problem. Avoid stupidity first.",
-      "meta": "Mental model"
+      "tag": "Letter",
+      "headline": "Operating earnings $44.5B (2025)",
+      "snippet": "Below $47.4B in 2024. Cash and U.S. Treasuries exceed $370B. Equity portfolio $297.8B.",
+      "meta": "FACT · Abel letter"
     },
     {
-      "tag": "Rule 1",
-      "headline": "Don’t lose money",
-      "snippet": "Rule two is don’t forget rule one. Survival is the whole strategy.",
-      "meta": "In this year’s letter"
-    },
-    {
-      "tag": "Compound",
-      "headline": "Time in, not timing",
-      "snippet": "The eighth wonder only works if you stop interrupting it.",
-      "meta": "Mental model"
-    },
-    {
-      "tag": "Safety",
-      "headline": "Margin of safety",
-      "snippet": "Price is what you pay. Value is what you get. The gap is the work.",
-      "meta": "In this year’s letter"
+      "tag": "13F",
+      "headline": "Period of report 2026-06-30",
+      "snippet": "Filed 2026-08-14. CIK 0001067983. Table value ~$299.3B. 89 entries.",
+      "meta": "FACT · EDGAR"
     }
   ],
   "places": [
     {
-      "tag": "Idea",
-      "title": "Circle of competence",
-      "snippet": "Know the edge of what you know. Outside it, you are guessing with other people’s money."
+      "tag": "Holdings",
+      "title": "Latest 13F",
+      "snippet": "What the latest 13F actually lists — dated, sourced, no price theater.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/0001193125-26-352200-index.htm"
     },
     {
-      "tag": "Idea",
-      "title": "Owners, not traders",
-      "snippet": "Buy pieces of businesses. Afternoon noise is not a process."
+      "tag": "Holdings",
+      "title": "Concentrated names",
+      "snippet": "Largest reported positions from that filing only — no day-trader color."
     },
     {
-      "tag": "Idea",
-      "title": "Read the 10-Ks",
-      "snippet": "If you will not read the filing, you do not own it. Dummy talk — no live filings."
+      "tag": "Holdings",
+      "title": "Adds / cuts / exits",
+      "snippet": "Only when two consecutive 13Fs make the change visible. Cite both periods."
     },
     {
-      "tag": "Idea",
-      "title": "Cash optionality",
-      "snippet": "Cash is a call on everyone else’s panic. Keep dry powder without apologizing."
+      "tag": "Letters",
+      "title": "Current letter",
+      "snippet": "Greg Abel’s Feb 28, 2026 letter (2025 shareholder letter). Read the PDF. Argue after.",
+      "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf"
     },
     {
-      "tag": "Idea",
-      "title": "Avoid leverage",
-      "snippet": "Leverage is how smart people go broke. The math works until it does not."
+      "tag": "Letters",
+      "title": "Letter archive",
+      "snippet": "Outbound to the letters index. Old letters stay useful.",
+      "url": "https://www.berkshirehathaway.com/letters/letters.html"
     },
     {
-      "tag": "Idea",
-      "title": "Temperament",
-      "snippet": "IQ is not the bottleneck. Sitting still when sitting still is the work."
+      "tag": "Letters",
+      "title": "Would Warren?",
+      "snippet": "Culture seat, not prediction market. Bring a filing or letter passage before a hot take."
     }
   ],
   "topics": [
     {
-      "tag": "Model",
-      "title": "Inversion",
-      "snippet": "Avoid the ways to fail. Charlie’s habit: invert, always invert."
+      "tag": "Filings FACT",
+      "title": "Room Brief",
+      "snippet": "Short FACT block from the Abel letter and the latest 13F."
     },
     {
-      "tag": "Model",
-      "title": "Opportunity cost",
-      "snippet": "Every yes is a no to something else. The silent partner in every capital decision."
+      "tag": "Filings FACT",
+      "title": "How we cite",
+      "snippet": "Link letter PDF + EDGAR accession. No anonymous “sources say.”"
     },
     {
-      "tag": "Model",
-      "title": "Latticework",
-      "snippet": "One discipline is a hammer. You need models from several rooms of the house."
+      "tag": "Filings FACT",
+      "title": "Holdings",
+      "snippet": "What the latest 13F actually lists — dated, sourced, no price theater."
     },
     {
-      "tag": "Model",
-      "title": "Mr. Market",
-      "snippet": "A manic-depressive partner. You are not obligated to trade with him."
+      "tag": "Filings FACT",
+      "title": "Letters",
+      "snippet": "The annual letter, in the company’s own words. Read the PDF. Argue after."
     },
     {
-      "tag": "Model",
-      "title": "Margin of safety",
-      "snippet": "Leave room to be wrong. The gap between price and value is the whole job."
+      "tag": "Trust",
+      "title": "Filings, not fanfic",
+      "snippet": "If it isn’t in a filing or on berkshirehathaway.com, it doesn’t get dressed up as fact."
     },
     {
-      "tag": "Model",
-      "title": "Compounding",
-      "snippet": "Do not interrupt it. Time is the multiplier if temperament holds."
+      "tag": "Trust",
+      "title": "Not financial advice",
+      "snippet": "Nothing here is a recommendation to buy, sell, or hold anything."
     }
   ],
   "stories": {
@@ -388,14 +381,29 @@
   "rail": {
     "kind": "porch",
     "title": "Room Brief",
-    "kicker": "In this year's letter",
-    "meta": "This room",
-    "footer": "Would Warren. Not CNBC.",
+    "kicker": "Updated from primary documents",
+    "meta": "Not advice · Not affiliated",
+    "footer": "Not financial advice. Not affiliated with Berkshire Hathaway. Letters and 13Fs are lagged. Read the document. Then talk.",
+    "maxCards": 5,
     "outbound": [
       {
+        "tag": "Letter",
+        "headline": "Abel’s first CEO letter — Feb 28, 2026",
+        "snippet": "Operating earnings $44.5B (2025). Cash & Treasuries exceed $370B. Equity portfolio $297.8B; concentrated set ~$194B. Buffett remains Chairman; Abel writes as CEO.",
+        "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+        "meta": "FACT · Official PDF"
+      },
+      {
+        "tag": "13F",
+        "headline": "Form 13F-HR — period 2026-06-30",
+        "snippet": "Filed 2026-08-14. 89 entries. Table value ~$299.3B. Largest: Apple; AmEx; Alphabet; Coca-Cola; BofA; Chevron; Occidental; Chubb; Moody’s; Kraft Heinz.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/0001193125-26-352200-index.htm",
+        "meta": "FACT · EDGAR"
+      },
+      {
         "tag": "Letters",
-        "headline": "Shareholder letters",
-        "snippet": "The archive, from Omaha. Not a news scrape.",
+        "headline": "Shareholder letters archive",
+        "snippet": "The archive, from Omaha. Argue after you read.",
         "url": "https://www.berkshirehathaway.com/letters/letters.html",
         "meta": "Official · link-out"
       }
