@@ -73,47 +73,47 @@
     {
       "tag": "Holdings",
       "title": "Latest 13F",
-      "snippet": "What the latest 13F actually lists — dated, sourced, no price theater.",
+      "snippet": "What the latest 13F actually lists — dated, sourced, no price theater. Reply invite: Open the EDGAR index — what line jumps out?",
       "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/0001193125-26-352200-index.htm"
     },
     {
       "tag": "Holdings",
       "title": "Concentrated names",
-      "snippet": "Largest reported positions from that filing only — no day-trader color."
+      "snippet": "Largest reported positions from that filing only — no day-trader color. Reply invite: Name one without inventing a price."
     },
     {
       "tag": "Holdings",
       "title": "Adds / cuts / exits",
-      "snippet": "Only when two consecutive 13Fs make the change visible. Cite both periods."
+      "snippet": "Only when two consecutive 13Fs make the change visible. Cite both periods. Reply invite: Which two periods are you comparing?"
     },
     {
       "tag": "Letters",
       "title": "Current letter",
-      "snippet": "Greg Abel’s Feb 28, 2026 letter (2025 shareholder letter). Read the PDF. Argue after.",
+      "snippet": "Greg Abel’s Feb 28, 2026 letter (2025 shareholder letter). Read the PDF. Argue after. Reply invite: Drop the page number you’re on.",
       "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf"
     },
     {
       "tag": "Letters",
       "title": "Letter archive",
-      "snippet": "Outbound to the letters index. Old letters stay useful.",
+      "snippet": "Outbound to the letters index. Old letters stay useful. Reply invite: Pick a year; say why.",
       "url": "https://www.berkshirehathaway.com/letters/letters.html"
     },
     {
       "tag": "Letters",
       "title": "Would Warren?",
-      "snippet": "Culture seat, not prediction market. Bring a filing or letter passage before a hot take."
+      "snippet": "Culture seat, not prediction market. Bring a filing or letter passage before a hot take. Reply invite: Quote first, hot take second."
     }
   ],
   "topics": [
     {
       "tag": "Filings FACT",
       "title": "Room Brief",
-      "snippet": "Short FACT block from the Abel letter and the latest 13F."
+      "snippet": "Short FACT block from the Abel letter and the latest 13F. Reply invite: What should we refresh when the next 13F drops?"
     },
     {
       "tag": "Filings FACT",
       "title": "How we cite",
-      "snippet": "Link letter PDF + EDGAR accession. No anonymous “sources say.”"
+      "snippet": "Link letter PDF + EDGAR accession. No anonymous “sources say.” Reply invite: Got a better primary URL? Paste it."
     },
     {
       "tag": "Filings FACT",
@@ -141,186 +141,106 @@
     "maxSeconds": 15,
     "maxBytes": 8000000
   },
-  "seedNote": "sample — not mixed into the live feed",
+  "seedNote": "STEWARD_PACK_ALIVE Fri 2026-09-25 · Not financial advice. Not affiliated with Berkshire Hathaway. Filings, not fanfic.",
   "seed": [
     {
-      "id": "p1",
-      "name": "Oracle Omaha",
-      "handle": "oracleomaha",
-      "text": "Rule number one: don’t lose money. Rule number two: don’t forget rule number one. Everything else is commentary.",
+      "id": "steward-n1",
+      "name": "Letter open",
+      "handle": "letteropen",
+      "text": "FACT: Abel’s first letter as CEO is dated Feb 28, 2026. Operating earnings, cash, culture — in Omaha’s words. https://www.berkshirehathaway.com/letters/2025ltr.pdf What paragraph did you stop on — and why?",
       "hours": 1,
-      "likes": 412,
-      "replies": 38,
+      "likes": 0,
+      "replies": 0,
       "followed": true
     },
     {
-      "id": "p2",
-      "name": "Charlie Inverted",
-      "handle": "charlieinverted",
-      "text": "Invert, always invert. Tell me where I’m going to die so I never go there. Avoiding stupidity is a full-time job.",
+      "id": "steward-n2",
+      "name": "Holdings are a filing",
+      "handle": "holdings13f",
+      "text": "FACT: Q2 2026 13F (filed Aug 14) has 89 information-table lines. Not a tip sheet. https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/0001193125-26-352200-index.htm Which issuer surprised you?",
       "hours": 2,
-      "likes": 388,
-      "replies": 41,
+      "likes": 0,
+      "replies": 0,
       "followed": true
     },
     {
-      "id": "p3",
-      "name": "Wide Moat",
-      "handle": "widemoat",
-      "text": "A great business is a castle. The moat is what keeps the barbarians out. Management is just the duke — the moat is the asset.",
+      "id": "steward-n3",
+      "name": "Cash sentence",
+      "handle": "cashsentence",
+      "text": "FACT: The letter says cash and U.S. Treasury holdings now exceed $370 billion. A document fact, not a trade idea. https://www.berkshirehathaway.com/letters/2025ltr.pdf Insurance, opportunity, or both? Cite the letter.",
       "hours": 3,
-      "likes": 256,
-      "replies": 22,
-      "followed": true
+      "likes": 0,
+      "replies": 0,
+      "followed": false
     },
     {
-      "id": "p4",
-      "name": "Float and Wait",
-      "handle": "floatandwait",
-      "text": "Insurance float is other people’s money you get to invest while you wait. The trick is never having to give it back in a hurry.",
+      "id": "steward-n4",
+      "name": "Concentration",
+      "handle": "concentration",
+      "text": "FACT: Year-end equity portfolio cited at $297.8B; Apple, Amex, Coke, Moody’s concentration ~$194B in the letter’s wording. https://www.berkshirehathaway.com/letters/2025ltr.pdf Does “nearly two-thirds” change how you read the 13F?",
       "hours": 4,
-      "likes": 191,
-      "replies": 14,
+      "likes": 0,
+      "replies": 0,
       "followed": true
     },
     {
-      "id": "p5",
-      "name": "10-K Club",
-      "handle": "10kclub",
-      "text": "If you will not read the 10-K, you do not own the business. You are renting a ticker and hoping. Dummy feed — not a filing.",
+      "id": "steward-n5",
+      "name": "Would Warren?",
+      "handle": "wouldwarren",
+      "text": "FACT: Bring a letter paragraph or 13F line before speculation. https://www.berkshirehathaway.com/letters/2025ltr.pdf https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/0001193125-26-352200-index.htm Quote it, then argue.",
       "hours": 5,
-      "likes": 274,
-      "replies": 33,
+      "likes": 0,
+      "replies": 0,
       "followed": false
     },
     {
-      "id": "p6",
-      "name": "Fat Pitch",
-      "handle": "fatpitch",
-      "text": "The market is a pitching machine with no called strikes. Wait for the fat one over the plate. Sitting is a position.",
+      "id": "steward-n6",
+      "name": "Archive still works",
+      "handle": "letterarchive",
+      "text": "FACT: Old letters stay useful; the public index is here. https://www.berkshirehathaway.com/letters/letters.html Which pre-2020 letter still shapes how you read Abel — and which page?",
       "hours": 6,
-      "likes": 321,
-      "replies": 19,
+      "likes": 0,
+      "replies": 0,
       "followed": true
     },
     {
-      "id": "p7",
-      "name": "Circle First",
-      "handle": "circlefirst",
-      "text": "Circle of competence is not a slogan. It is a fence. Outside it you are guessing, and guessing is how capital disappears.",
+      "id": "steward-n7",
+      "name": "Lag honesty",
+      "handle": "laghonesty",
+      "text": "FACT: 13Fs are lagged and letters are annual; neither is a live portfolio. https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983&type=13F What do people over-read in a 45-day-old filing?",
+      "hours": 7,
+      "likes": 0,
+      "replies": 0,
+      "followed": false
+    },
+    {
+      "id": "steward-n8",
+      "name": "Annual report companion",
+      "handle": "annualreport",
+      "text": "FACT: The 2025 annual report / 10-K hub sits next to the letter. https://www.berkshirehathaway.com/2025ar/linksannual25.html Letter first or 10-K first, and what are you checking?",
       "hours": 8,
-      "likes": 167,
-      "replies": 11,
+      "likes": 0,
+      "replies": 0,
       "followed": true
     },
     {
-      "id": "p8",
-      "name": "Mr Market",
-      "handle": "mrktmarket",
-      "text": "Mr. Market is a manic-depressive partner who quotes you a price every morning. You are not obligated to do business with him.",
+      "id": "steward-n9",
+      "name": "Not CNBC",
+      "handle": "notcnbc",
+      "text": "FACT: This porch is documents, not segments. If it is not in a filing or on berkshirehathaway.com, do not dress it as fact. https://www.berkshirehathaway.com/letters/letters.html What claim had no primary link?",
       "hours": 9,
-      "likes": 298,
-      "replies": 27,
+      "likes": 0,
+      "replies": 0,
       "followed": false
     },
     {
-      "id": "p9",
-      "name": "Compound Quietly",
-      "handle": "compoundquietly",
-      "text": "Compounding is the eighth wonder if you stop interrupting it. Time in the seat beats timing the noise.",
-      "hours": 11,
-      "likes": 344,
-      "replies": 18,
-      "followed": true
-    },
-    {
-      "id": "p10",
-      "name": "Owners Desk",
-      "handle": "ownersnottraders",
-      "text": "Buy businesses, not stocks. Owners think in decades. Traders think in afternoons. Pick a time horizon and keep it.",
-      "hours": 13,
-      "likes": 219,
-      "replies": 16,
-      "followed": true
-    },
-    {
-      "id": "p11",
-      "name": "Cash Optionality",
-      "handle": "cashoptionality",
-      "text": "Cash is a call option on everyone else’s panic. Dry powder looks foolish until the day it is the only thing that matters.",
-      "hours": 15,
-      "likes": 183,
-      "replies": 12,
-      "followed": false
-    },
-    {
-      "id": "p12",
-      "name": "No Leverage",
-      "handle": "noleverage",
-      "text": "Leverage is how smart people go broke. The math works until one bad year, and you only need one.",
-      "hours": 17,
-      "likes": 276,
-      "replies": 29,
-      "followed": true
-    },
-    {
-      "id": "p13",
-      "name": "Lattice Work",
-      "handle": "latticework",
-      "text": "You need a latticework of mental models. One discipline is a hammer looking for nails. Charlie collected rooms, not slogans.",
-      "hours": 19,
-      "likes": 231,
-      "replies": 21,
-      "followed": true
-    },
-    {
-      "id": "p14",
-      "name": "Margin Club",
-      "handle": "marginsafety",
-      "text": "Price is what you pay. Value is what you get. The gap is your margin of safety. Do not skip the gap.",
-      "hours": 21,
-      "likes": 359,
-      "replies": 24,
-      "followed": false
-    },
-    {
-      "id": "p15",
-      "name": "Sit Still",
-      "handle": "temperament",
-      "text": "IQ is not the bottleneck. Temperament is. The work is sitting still when sitting still is the correct trade.",
-      "hours": 23,
-      "likes": 205,
-      "replies": 9,
-      "followed": true
-    },
-    {
-      "id": "p16",
-      "name": "Opportunity Cost",
-      "handle": "opportunitycost",
-      "text": "Every yes is a no to something else. Opportunity cost is the silent partner in every capital decision. Say no more often.",
-      "hours": 26,
-      "likes": 148,
-      "replies": 7,
-      "followed": false
-    },
-    {
-      "id": "p17",
-      "name": "Omaha Office",
-      "handle": "omahaoffice",
-      "text": "You do not need a ticker on the wall. You need a book, a 10-K, and a quiet room. Dummy wisdom — not advice.",
-      "hours": 30,
-      "likes": 172,
-      "replies": 13,
-      "followed": true
-    },
-    {
-      "id": "p18",
-      "name": "Partner First",
-      "handle": "partnerfirst",
-      "text": "The best investment is a partner who will tell you when you are wrong. Charlie’s ideas still do that work. Honor the latticework.",
-      "hours": 34,
-      "likes": 401,
-      "replies": 44,
+      "id": "steward-n10",
+      "name": "Stewardship line",
+      "handle": "stewardship",
+      "text": "FACT: Abel writes that capital is commingled but does not belong to management; the role is stewardship. https://www.berkshirehathaway.com/letters/2025ltr.pdf Does that change how you talk about what Berkshire should do next?",
+      "hours": 10,
+      "likes": 0,
+      "replies": 0,
       "followed": true
     }
   ],
@@ -346,34 +266,62 @@
   ],
   "threads": [
     {
-      "id": "t1",
-      "name": "Charlie Inverted",
-      "handle": "charlieinverted",
-      "preview": "Invert the problem. Where do we die?",
+      "id": "steward-seed-a",
+      "name": "Seed A — Letter vs 13F",
+      "handle": "letter_vs_13f",
+      "preview": "If letter, which heading; if 13F, which issuer name exactly as filed?",
       "messages": [
         {
           "me": false,
-          "text": "Invert the problem. Where do we die?"
+          "text": "Abel letter or latest 13F first this week — and why?"
         },
         {
           "me": true,
-          "text": "Leverage, outside the circle, and interrupting compounding. Dummy chat, not advice."
+          "text": "Either works if you stay in the document: letter for culture/cash; 13F for reported equity lines. Not advice."
+        },
+        {
+          "me": false,
+          "text": "If letter, which heading; if 13F, which issuer name exactly as filed?"
         }
       ]
     },
     {
-      "id": "t2",
-      "name": "Wide Moat",
-      "handle": "widemoat",
-      "preview": "Moats aren’t slogans. What’s durable?",
+      "id": "steward-seed-b",
+      "name": "Seed B — Would Warren",
+      "handle": "would_warren_seed",
+      "preview": "Paste the sentence you’re leaning on — page or table row.",
       "messages": [
         {
           "me": false,
-          "text": "Moats aren’t slogans. What’s durable?"
+          "text": "Would Warren buy X? You name X."
         },
         {
           "me": true,
-          "text": "Switching costs, brand, and a cost advantage you can explain on one page."
+          "text": "Only after a letter passage or 13F line. No passage means we do not pretend."
+        },
+        {
+          "me": false,
+          "text": "Paste the sentence you’re leaning on — page or table row."
+        }
+      ]
+    },
+    {
+      "id": "steward-seed-c",
+      "name": "Seed C — Lag and hype",
+      "handle": "lag_hype",
+      "preview": "Did the primary source confirm, contradict, or stay silent?",
+      "messages": [
+        {
+          "me": false,
+          "text": "What’s the most overplayed Berkshire headline you’ve seen lately?"
+        },
+        {
+          "me": true,
+          "text": "Overplay usually means no EDGAR or letter link. Check whether the claim survives the primary source."
+        },
+        {
+          "me": false,
+          "text": "Did the primary source confirm, contradict, or stay silent?"
         }
       ]
     }
@@ -383,7 +331,7 @@
     "title": "Room Brief",
     "kicker": "Updated from primary documents",
     "meta": "Not advice · Not affiliated",
-    "footer": "Not financial advice. Not affiliated with Berkshire Hathaway. Letters and 13Fs are lagged. Read the document. Then talk.",
+    "footer": "Not financial advice. Not affiliated with Berkshire Hathaway. Filings, not fanfic. Letters and 13Fs are lagged. Read the document. Then talk.",
     "maxCards": 5,
     "outbound": [
       {
@@ -402,13 +350,12 @@
       }
     ],
     "porch": {
-      "prompt": "Would Warren?",
+      "prompt": "What are you reading tonight — letter or 13F — and what’s your one open question?",
+      "dwellMs": 9000,
       "options": [
-        "Buy",
-        "Hold",
-        "Sell"
-      ],
-      "dwellMs": 9000
+        "Letter",
+        "13F"
+      ]
     }
   }
 }
