@@ -387,25 +387,18 @@
     "maxCards": 5,
     "outbound": [
       {
-        "tag": "Letter",
-        "headline": "Abel’s first CEO letter — Feb 28, 2026",
-        "snippet": "Operating earnings $44.5B (2025). Cash & Treasuries exceed $370B. Equity portfolio $297.8B; concentrated set ~$194B. Buffett remains Chairman; Abel writes as CEO.",
-        "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
-        "meta": "FACT · Official PDF"
-      },
-      {
-        "tag": "13F",
-        "headline": "Form 13F-HR — period 2026-06-30",
-        "snippet": "Filed 2026-08-14. 89 entries. Table value ~$299.3B. Largest: Apple; AmEx; Alphabet; Coca-Cola; BofA; Chevron; Occidental; Chubb; Moody’s; Kraft Heinz.",
+        "tag": "Holdings",
+        "headline": "Holdings (13F)",
         "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/0001193125-26-352200-index.htm",
-        "meta": "FACT · EDGAR"
+        "snippet": "BRK 13F-HR period ended 2026-06-30, filed 2026-08-14 (CIK 0001067983). EDGAR index; not live prices; not advice.",
+        "meta": "Filings · not advice"
       },
       {
-        "tag": "Letters",
-        "headline": "Shareholder letters archive",
-        "snippet": "The archive, from Omaha. Argue after you read.",
-        "url": "https://www.berkshirehathaway.com/letters/letters.html",
-        "meta": "Official · link-out"
+        "tag": "Watch",
+        "headline": "2025 Letter (Abel)",
+        "url": "https://www.berkshirehathaway.com/letters/2025ltr.pdf",
+        "snippet": "Greg Abel first CEO letter dated Feb 28, 2026. Official BH PDF — outbound only; do not re-host.",
+        "meta": "Official · outbound"
       }
     ],
     "porch": {
