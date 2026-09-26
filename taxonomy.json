@@ -1,0 +1,109 @@
+{
+  "siteId": "buffettchat",
+  "domain": "buffettchat.com",
+  "taxonomyName": "Filings desk",
+  "topics": [
+    {
+      "id": "brk-a",
+      "label": "BRK.A",
+      "kind": "org",
+      "blurb": "Class A",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active",
+      "symbol": "$BRKA"
+    },
+    {
+      "id": "brk-b",
+      "label": "BRK.B",
+      "kind": "org",
+      "blurb": "Class B",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active",
+      "symbol": "$BRKB"
+    },
+    {
+      "id": "10k",
+      "label": "10-K",
+      "kind": "theme",
+      "blurb": "Annual report",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "10q",
+      "label": "10-Q",
+      "kind": "theme",
+      "blurb": "Quarterly",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "13f",
+      "label": "13F",
+      "kind": "theme",
+      "blurb": "Holdings",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "letters",
+      "label": "Shareholder letters",
+      "kind": "theme",
+      "blurb": "Annual letter",
+      "followDefault": true,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "insurance",
+      "label": "Insurance float",
+      "kind": "theme",
+      "blurb": "Core business talk",
+      "followDefault": false,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "energy",
+      "label": "BHE / energy",
+      "kind": "theme",
+      "blurb": "Energy holdings",
+      "followDefault": false,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "rail",
+      "label": "BNSF",
+      "kind": "theme",
+      "blurb": "Railroad",
+      "followDefault": false,
+      "adminSeed": true,
+      "status": "active"
+    },
+    {
+      "id": "cash",
+      "label": "Cash & Treasuries",
+      "kind": "theme",
+      "blurb": "Balance sheet",
+      "followDefault": false,
+      "adminSeed": true,
+      "status": "active"
+    }
+  ],
+  "topicCount": 10,
+  "defaultWatchlist": [
+    "brk-a",
+    "brk-b",
+    "10k",
+    "10q",
+    "13f",
+    "letters"
+  ],
+  "notes": "adminSeed topics are factory pre-populated. Users may unfollow (remove from their list) or follow more from the full taxonomy. Admins may retire topics (status=retired) or add new ones; user lists stay editable."
+}
