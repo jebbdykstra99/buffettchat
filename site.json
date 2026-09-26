@@ -466,6 +466,88 @@
     ],
     "notes": "Factory followable topics (StockTwits-style). Users keep/unfollow/add on their watchlist."
   },
+  "nests": [
+    {
+      "slug": "letters",
+      "label": "Letters",
+      "parent": null,
+      "kind": "theme",
+      "blurb": "Annual letter in Omaha's words — read the PDF, argue after.",
+      "nav": true
+    },
+    {
+      "slug": "current-letter",
+      "label": "Current letter",
+      "parent": null,
+      "kind": "theme",
+      "blurb": "Abel letter desk (Feb 28, 2026 PDF) — page cites before hot takes.",
+      "nav": true
+    },
+    {
+      "slug": "letter-archive",
+      "label": "Letter archive",
+      "parent": null,
+      "kind": "theme",
+      "blurb": "Pre-2020 letters still teach — pick a year on the public index.",
+      "nav": true
+    },
+    {
+      "slug": "holdings",
+      "label": "Holdings",
+      "parent": null,
+      "kind": "theme",
+      "blurb": "What the latest 13F actually lists — dated, sourced, no price theater.",
+      "nav": true
+    },
+    {
+      "slug": "13f",
+      "label": "Latest 13F",
+      "parent": null,
+      "kind": "theme",
+      "blurb": "Period / filed date / line count — one EDGAR index URL.",
+      "nav": true
+    },
+    {
+      "slug": "concentrated",
+      "label": "Concentrated names",
+      "parent": null,
+      "kind": "theme",
+      "blurb": "Largest issuers from that filing only — letter wording when citing totals.",
+      "nav": true
+    },
+    {
+      "slug": "adds-cuts",
+      "label": "Adds / cuts",
+      "parent": null,
+      "kind": "theme",
+      "blurb": "Only with two consecutive 13Fs — snapshot is not before/after.",
+      "nav": true
+    },
+    {
+      "slug": "filings",
+      "label": "Filings FACT",
+      "parent": null,
+      "kind": "theme",
+      "blurb": "Cite rules + Room Brief — no filing/no berkshirehathaway.com link means not FACT.",
+      "nav": true
+    },
+    {
+      "slug": "10k",
+      "label": "10-K / annual report",
+      "parent": null,
+      "kind": "theme",
+      "blurb": "Letter companion — AR / 10-K hub outbound.",
+      "nav": true
+    },
+    {
+      "slug": "10q",
+      "label": "10-Q",
+      "parent": null,
+      "kind": "theme",
+      "blurb": "Quarterly reports — lagged like everything else here.",
+      "nav": true
+    }
+  ],
   "v": 1,
   "cacheBust": 1
 }
