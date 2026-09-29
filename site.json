@@ -547,6 +547,105 @@
       "kind": "theme",
       "blurb": "Quarterly reports — lagged like everything else here.",
       "nav": true
+    },
+    {
+      "slug": "year-grades",
+      "label": "Year grades",
+      "parent": null,
+      "kind": "theme",
+      "blurb": "Letter-cited year scorecards — grade the decade patiently, cite the AR table first.",
+      "defaultTopic": false,
+      "nav": true
+    },
+    {
+      "slug": "yg-2016",
+      "label": "2016 · A-",
+      "parent": "year-grades",
+      "kind": "theme",
+      "blurb": "Clear MV beat vs S&P — cite 2016 letter + 2025 table.",
+      "defaultTopic": false,
+      "nav": true
+    },
+    {
+      "slug": "yg-2017",
+      "label": "2017 · B+",
+      "parent": "year-grades",
+      "kind": "theme",
+      "blurb": "Matched S&P; Tax Code BV lift — separate ops from accounting windfall.",
+      "defaultTopic": false,
+      "nav": true
+    },
+    {
+      "slug": "yg-2018",
+      "label": "2018 · B+",
+      "parent": "year-grades",
+      "kind": "theme",
+      "blurb": "Beat a down S&P; Ajit/Greg elevated; book-value farewell year.",
+      "defaultTopic": false,
+      "nav": true
+    },
+    {
+      "slug": "yg-2019",
+      "label": "2019 · C",
+      "parent": "year-grades",
+      "kind": "theme",
+      "blurb": "Large lag vs S&P — quiet ops, loud GAAP.",
+      "defaultTopic": false,
+      "nav": true
+    },
+    {
+      "slug": "yg-2020",
+      "label": "2020 · C-",
+      "parent": "year-grades",
+      "kind": "theme",
+      "blurb": "Pandemic lag; ops down; repurchases ≠ market catch-up.",
+      "defaultTopic": false,
+      "nav": true
+    },
+    {
+      "slug": "yg-2021",
+      "label": "2021 · A-",
+      "parent": "year-grades",
+      "kind": "theme",
+      "blurb": "Strong absolute year; float and business-picking thesis.",
+      "defaultTopic": false,
+      "nav": true
+    },
+    {
+      "slug": "yg-2022",
+      "label": "2022 · A",
+      "parent": "year-grades",
+      "kind": "theme",
+      "blurb": "Relative win in a bear tape; record operating earnings.",
+      "defaultTopic": false,
+      "nav": true
+    },
+    {
+      "slug": "yg-2023",
+      "label": "2023 · B-",
+      "parent": "year-grades",
+      "kind": "theme",
+      "blurb": "Lag year; Charlie memorial — culture over scoreboard.",
+      "defaultTopic": false,
+      "nav": true
+    },
+    {
+      "slug": "yg-2024",
+      "label": "2024 · A-",
+      "parent": "year-grades",
+      "kind": "theme",
+      "blurb": "Matched S&P; succession named; last Buffett CEO letter.",
+      "defaultTopic": false,
+      "nav": true
+    },
+    {
+      "slug": "yg-2025",
+      "label": "2025 · B-",
+      "parent": "year-grades",
+      "kind": "theme",
+      "blurb": "Abel’s first CEO letter; stewardship over mythology.",
+      "defaultTopic": false,
+      "nav": true
     }
   ],
   "v": 1,
