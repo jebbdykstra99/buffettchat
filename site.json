@@ -1,5 +1,6 @@
 {
   "siteId": "buffettchat",
+  "dms": true,
   "redditSr": "buffettchat",
   "name": "buffettchat",
   "tagline": "The Oracle still talks.",
