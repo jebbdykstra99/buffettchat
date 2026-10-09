@@ -1,7 +1,6 @@
 {
   "siteId": "buffettchat",
   "dms": true,
-  "redditSr": "buffettchat",
   "name": "buffettchat",
   "tagline": "The Oracle still talks.",
   "composePlaceholder": "What's on your mind, owner?",
@@ -649,5 +648,7 @@
     }
   ],
   "v": 1,
-  "cacheBust": 1
+  "cacheBust": 1,
+  "pixel": false,
+  "redditCrosspost": false
 }
