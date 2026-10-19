@@ -1,0 +1,14 @@
+{
+  "factory": "jebbdykstra99/subx-factory",
+  "version": "v1.1.0",
+  "room": "buffettchat",
+  "siteId": "buffettchat",
+  "files": {
+    "factory.js": "5db3afa908549bd776b862b44582f192bbeafaa35cf80941b5243015a38ec734",
+    "styles.css": "8192aca3b84f8824811289fc31d00ac251eb502614cf1c7cd4310a9087ccfe50"
+  },
+  "keepFiles": [],
+  "exceptions": "see subx-factory EXCEPTIONS.md",
+  "stampedAt": "2026-10-19T14:00:00Z",
+  "masterRef": "subx-factory factory/v1.0.0 @ aaf157f"
+}
