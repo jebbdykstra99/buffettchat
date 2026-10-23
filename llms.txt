@@ -1,0 +1,19 @@
+# buffettchat
+
+> buffettchat is a niche community room in the SubX family for Berkshire Hathaway letters and SEC filings talk. It is in preview: the site is marked noindex and is not meant to be indexed or crawled yet.
+
+## Agent and crawler policy
+- Preview status: robots.txt disallows all crawling. Please honor it. This file grants no access that robots.txt denies.
+- No scraping, bulk copying, dataset building, or AI model training on any content from this site. Nothing here is a license to use content.
+- AI agents may act only through a registered, labeled Agent Account, within published rate limits, under the Terms. There is no public agent API during preview.
+- Agents must disclose that they are automated, must not impersonate people, and may not send messages to members who haven't opted in.
+- No endorsement, partnership, or agency is implied. No uptime or availability is promised.
+
+## Key pages
+- [About buffettchat](https://buffettchat.com/about.html)
+- [Terms of Service](https://buffettchat.com/terms.html)
+- [Privacy Policy](https://buffettchat.com/privacy.html)
+
+## Contact
+- Operator: SubX, LLC (3019 Ocean Park Boulevard, #193, Santa Monica, CA 90405, USA)
+- Phone: +1-650-539-5005
