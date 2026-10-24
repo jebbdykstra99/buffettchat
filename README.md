@@ -28,4 +28,4 @@ Until DNS is pointed, Pages will serve on the github.io URL only if the repo is 
 - Right rail is dummy “In this year’s letter” and “Mental models” cards. Links stay on-site (`#explore`). No live quotes, no Yahoo Finance / CNBC / Berkshire URLs, no fetch or API.
 - Sign-in modal closes (X, Escape, overlay click); auth is stubbed locally. No Firebase project keys.
 - **Dummy feed. Not financial advice. Not a broker.**
-- No AskAI. No packages catalog. No booking. No Jebb contact. Flagships stay dark. We are not X.com. Not official Berkshire Hathaway.
+- No AskAI. No packages catalog. No booking. No personal contact details. Flagships stay dark. We are not X.com. Not official Berkshire Hathaway.
