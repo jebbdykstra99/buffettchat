@@ -1,14 +1,14 @@
 {
   "factory": "jebbdykstra99/subx-factory",
-  "version": "v1.0.1+nr",
+  "version": "v1.0.1+nr (hand lock 2026-10-30)",
   "room": "buffettchat",
   "siteId": "buffettchat",
   "files": {
-    "factory.js": "a90e69ba13409b24ca19ff6be48c14e727ecc0c2f733fe44c4030539f9e9079b",
-    "styles.css": "8192aca3b84f8824811289fc31d00ac251eb502614cf1c7cd4310a9087ccfe50"
+    "factory.js": "3ca317ef3b982204ed82e7385251a1316dda27974f9a48a06229cae1ac0dfed5",
+    "styles.css": "39accfe330ca0502fad05bcb1c03a84a66d17e7c57698f4a2dfb7a9cd041eadb"
   },
   "keepFiles": [],
   "exceptions": "see subx-factory EXCEPTIONS.md",
-  "stampedAt": "2026-10-19T14:00:00Z",
+  "stampedAt": "2026-10-30T13:30:00Z",
   "masterRef": "subx-factory factory/v1.0.0 @ aaf157f"
 }
