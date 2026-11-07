@@ -5,7 +5,7 @@
   "siteId": "buffettchat",
   "files": {
     "factory.js": "e3a8df039c327664679121a12213a0d5018a3fc64fac4722e275e2ea72c1e4ae",
-    "styles.css": "39accfe330ca0502fad05bcb1c03a84a66d17e7c57698f4a2dfb7a9cd041eadb"
+    "styles.css": "04d32527e27f33b82da9bae8cd8c29474f053545d15a1dffdc1397487530a67a"
   },
   "keepFiles": [
     "takedown.js"
