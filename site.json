@@ -142,6 +142,24 @@
     "maxBytes": 8000000
   },
   "seedNote": "STEWARD_PACK_ALIVE Fri 2026-09-25 · Not financial advice. Not affiliated with Berkshire Hathaway. Filings, not fanfic.",
+  "featured": {
+    "featuredDays": 3,
+    "maxPinned": 3,
+    "articleMinChars": 600,
+    "label": "Our articles",
+    "handles": [
+      "quotefirst",
+      "letterporch",
+      "laghonest",
+      "omahaarchive",
+      "filingsdesk",
+      "edgarquiet",
+      "stewardtone",
+      "notadvice",
+      "cashline",
+      "primarylink"
+    ]
+  },
   "rail": {
     "kind": "porch",
     "title": "Room Brief",
